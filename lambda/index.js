@@ -199,21 +199,21 @@ exports.handler = skillBuilder
 //(skad00sh) This is the data which can be used for all en languages.
 const enData = {
   translation: {
-    SKILL_NAME: 'Space Facts',
+    SKILL_NAME: 'Firefox Facts',
     GET_FACT_MESSAGE: 'Here\'s your fact: ',
-    HELP_MESSAGE: 'You can say tell me a space fact, or, you can say exit... What can I help you with?',
+    HELP_MESSAGE: 'You can say tell me firefox fact, or, you can say exit... What can I help you with?',
     HELP_REPROMPT: 'What can I help you with?',
-    FALLBACK_MESSAGE: 'The Space Facts skill can\'t help you with that.  It can help you discover facts about space if you say tell me a space fact. What can I help you with?',
+    FALLBACK_MESSAGE: 'Firefox Facts skill can\'t help you with that.  It can help you discover facts about firefox if you say tell me firefox fact. What can I help you with?',
     FALLBACK_REPROMPT: 'What can I help you with?',
     ERROR_MESSAGE: 'Sorry, an error occurred.',
     STOP_MESSAGE: 'Goodbye!',
     FACTS:
       [
-        'A year on Mercury is just 88 days long.',
-        'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-        'On Mars, the Sun appears about half the size as it does on Earth.',
-        'Jupiter has the shortest day of all the planets.',
-        'The Sun is an almost perfect sphere.',
+        'Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation.',
+        'Firefox was created in 2002 under the codename "Phoenix" by the Mozilla community members.',
+        'Firefox is a widely localized web browser. The first official release in November 2004 was available in 24 different languages and for 28 locales.',
+        'As per The Mozilla Manifesto, \'The principles we wrote in 1998 still guide us today. And in 2018, we created an addendum to emphasize inclusion, privacy and safety for everyone online.\'',
+        'Mission of Mozzila Firefox is \:\'Keep the internet open and accessible to all.\'',
       ],
   },
 };
@@ -221,35 +221,35 @@ const enData = {
 //(skad00sh)en-AU langauge (Australia)
 const enauData = {
   translation: {
-    SKILL_NAME: 'Australian Space Facts',
+    SKILL_NAME: 'Firefox Facts',
   },
 };
 
 //(skad00sh)en-CA language (Canada)
 const encaData = {
   translation: {
-    SKILL_NAME: 'Canadian Space Facts',
+    SKILL_NAME: 'Firefox Facts',
   },
 };
 
 //(skad00sh)en-GB language (England)
 const engbData = {
   translation: {
-    SKILL_NAME: 'British Space Facts',
+    SKILL_NAME: 'Firefox Facts',
   },
 };
 
 //(skad00sh)en-IN language (India)
 const eninData = {
   translation: {
-    SKILL_NAME: 'Indian Space Facts',
+    SKILL_NAME: 'Firefox Facts',
   },
 };
 
 //(skad00sh)en-US language (USA)
 const enusData = {
   translation: {
-    SKILL_NAME: 'American Space Facts',
+    SKILL_NAME: 'Firefox Facts',
   },
 };
 
