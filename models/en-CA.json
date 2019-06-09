@@ -1,0 +1,51 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "firefox facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "a fact",
+            "firefox fact",
+            "tell me a fact",
+            "tell me a firefox fact",
+            "tell me the firefox fact",
+            "give me a fact",
+            "give me a firefox fact",
+            "give me a browser facts",
+            "tell me a browser facts",
+            "give me the firefox fact",
+            "tell me trivia",
+            "tell me a firefox trivia",
+            "tell me the firefox trivia",
+            "give me trivia",
+            "give me a firefox trivia",
+            "give me the firefox trivia",
+            "give me some information",
+            "give me some information about firefox",
+            "tell me something",
+            "give me something"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}
