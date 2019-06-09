@@ -169,7 +169,9 @@ exports.handler = skillBuilder
 // It is organized by language/locale.  You can safely ignore the locales you aren't using.
 // Update the name and messages to align with the theme of your skill
 
-const deData = {
+
+//(skad00sh) Uncomment and add your data for de language.
+/**const deData = {
   translation: {
     SKILL_NAME: 'Weltraumwissen',
     GET_FACT_MESSAGE: 'Hier sind deine Fakten: ',
@@ -187,15 +189,14 @@ const deData = {
         'Auf dem Mars erscheint die Sonne nur halb so groß wie auf der Erde.',
         'Jupiter hat den kürzesten Tag aller Planeten.',
       ],
-  },
-};
+  },};**/
 
-const dedeData = {
+/**const dedeData = {
   translation: {
     SKILL_NAME: 'Weltraumwissen auf Deutsch',
-  },
-};
+  },};**/
 
+//(skad00sh) This is the data which can be used for all en languages.
 const enData = {
   translation: {
     SKILL_NAME: 'Space Facts',
@@ -217,37 +218,43 @@ const enData = {
   },
 };
 
+//(skad00sh)en-AU langauge (Australia)
 const enauData = {
   translation: {
     SKILL_NAME: 'Australian Space Facts',
   },
 };
 
+//(skad00sh)en-CA language (Canada)
 const encaData = {
   translation: {
     SKILL_NAME: 'Canadian Space Facts',
   },
 };
 
+//(skad00sh)en-GB language (England)
 const engbData = {
   translation: {
     SKILL_NAME: 'British Space Facts',
   },
 };
 
+//(skad00sh)en-IN language (India)
 const eninData = {
   translation: {
     SKILL_NAME: 'Indian Space Facts',
   },
 };
 
+//(skad00sh)en-US language (USA)
 const enusData = {
   translation: {
     SKILL_NAME: 'American Space Facts',
   },
 };
 
-const esData = {
+//(skad00sh) Uncomment and add your data for es language.
+/**const esData = {
   translation: {
     SKILL_NAME: 'Curiosidades del Espacio',
     GET_FACT_MESSAGE: 'Aquí está tu curiosidad: ',
@@ -267,8 +274,10 @@ const esData = {
         ],
   },
 };
+**/
 
-const esesData = {
+//(skad00sh)All es languages translation goes here
+/**const esesData = {
   translation: {
     SKILL_NAME: 'Curiosidades del Espacio para España',
   },
@@ -285,8 +294,10 @@ const esusData = {
     SKILL_NAME: 'Curiosidades del Espacio para Estados Unidos',
   },
 };
+**/
 
-const frData = {
+//(skad00sh) Uncomment and add your data for fr language.
+/**const frData = {
   translation: {
     SKILL_NAME: 'Anecdotes de l\'Espace',
     GET_FACT_MESSAGE: 'Voici votre anecdote : ',
@@ -306,8 +317,10 @@ const frData = {
         ],
   },
 };
+**/
 
-const frfrData = {
+//(skad00sh)All fr languages translation goes here
+/**const frfrData = {
   translation: {
     SKILL_NAME: 'Anecdotes françaises de l\'espace',
   },
@@ -318,8 +331,10 @@ const frcaData = {
     SKILL_NAME: 'Anecdotes canadiennes de l\'espace',
   },
 };
+**/
 
-const itData = {
+//(skad00sh) Uncomment and add your data for it language.
+/**const itData = {
   translation: {
     SKILL_NAME: 'Aneddoti dallo spazio',
     GET_FACT_MESSAGE: 'Ecco il tuo aneddoto: ',
@@ -339,14 +354,17 @@ const itData = {
       ],
   },
 };
-
-const ititData = {
+**/
+//(skad00sh) uncomment for translation data of it
+/**const ititData = {
   translation: {
     SKILL_NAME: 'Aneddoti dallo spazio',
   },
 };
+**/
 
-const jpData = {
+//(skad00sh) Uncomment and add your data for jp language
+/**const jpData = {
   translation: {
     SKILL_NAME: '日本語版豆知識',
     GET_FACT_MESSAGE: '知ってましたか？',
@@ -365,20 +383,25 @@ const jpData = {
       ],
   },
 };
+**/
+//(skad00sh) uncomment for translation data of jp
 
-const jpjpData = {
+/**const jpjpData = {
   translation: {
     SKILL_NAME: '日本語版豆知識',
   },
 };
+**/
 
-const ptbrData = {
+//(skad00sh) uncomment for translation data of pt
+/**const ptbrData = {
   translation: {
     SKILL_NAME: 'Fatos Espaciais',
   },
 };
-
-const ptData = {
+**/
+//(skad00sh) Uncomment and add your data for pt language
+/**const ptData = {
   translation: {
     SKILL_NAME: 'Fatos Espaciais',
     GET_FACT_MESSAGE: 'Aqui vai: ',
@@ -398,28 +421,30 @@ const ptData = {
       ],
   },
 };
+**/
 
 // constructs i18n and l10n data structure
+// (skad00sh) when you add and uncommend data for languages above, uncomment here too.
 const languageStrings = {
-  'de': deData,
-  'de-DE': dedeData,
+  //'de': deData,
+  //'de-DE': dedeData,
   'en': enData,
   'en-AU': enauData,
   'en-CA': encaData,
   'en-GB': engbData,
   'en-IN': eninData,
   'en-US': enusData,
-  'es': esData,
-  'es-ES': esesData,
+  //'es': esData,
+  /**'es-ES': esesData,
   'es-MX': esmxData,
-  'es-US': esusData,
-  'fr': frData,
+  'es-US': esusData, **/
+  /**'fr': frData,
   'fr-FR': frfrData,
-  'fr-CA': frcaData,
-  'it': itData,
-  'it-IT': ititData,
-  'ja': jpData,
-  'ja-JP': jpjpData,
-  'pt': ptData,
-  'pt-BR': ptbrData,
+  'fr-CA': frcaData, **/
+  //'it': itData,
+  //'it-IT': ititData,
+  //'ja': jpData,
+  //'ja-JP': jpjpData,
+  //'pt': ptData,
+  //'pt-BR': ptbrData,
 };
